@@ -24,5 +24,6 @@ get_header(); ?>
 		<?php endwhile; // end of the loop. ?>
 	</div><!-- .container -->
 </section><!-- .home-page -->
+<pre><?php print_r($wp_query); exit; ?></pre>
 
 <?php get_footer(); ?>
